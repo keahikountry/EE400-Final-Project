@@ -1,0 +1,63 @@
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.bin
+
+# Arduino IDE files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code settings (keep project-specific ones)
+.vscode/settings.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*~
+*.swp
+*.swo
+
+# Libraries (if using library manager)
+libraries/
+
+# Python cache (for notebooks)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Edge Impulse build artifacts
+edge-impulse-standalone/
+*.ei
+
+# Serial monitor logs
+*.log

@@ -1,0 +1,7 @@
+{
+    "sketch": "nano_ble33_sense_camera/nano_ble33_sense_camera.ino",
+    "board": "arduino:mbed_nano:nano33ble",
+    "output": "build",
+    "debugger": "jlink",
+    "port": "/dev/cu.usbmodem*"
+}

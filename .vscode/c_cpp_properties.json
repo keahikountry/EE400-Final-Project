@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Arduino",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/Library/Arduino15/packages/arduino/hardware/mbed_nano/*/cores/**",
+                "~/Library/Arduino15/packages/arduino/hardware/mbed_nano/*/libraries/**",
+                "~/Documents/Arduino/libraries/**"
+            ],
+            "defines": [
+                "ARDUINO=10819",
+                "ARDUINO_NANO33BLE",
+                "ARDUINO_ARCH_MBED_NANO",
+                "ARDUINO_ARCH_MBED",
+                "TARGET_NANO33BLE",
+                "MBED_NO_GLOBAL_USING_DIRECTIVE"
+            ],
+            "compilerPath": "arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm",
+            "forcedInclude": [
+                "~/Library/Arduino15/packages/arduino/hardware/mbed_nano/*/cores/arduino/Arduino.h"
+            ]
+        }
+    ],
+    "version": 4
+}

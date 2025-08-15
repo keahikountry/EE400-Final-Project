@@ -1,0 +1,95 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Arduino Build and Upload - Camera",
+			"type": "shell",
+			"command": "arduino-cli",
+			"args": [
+				"compile",
+				"--fqbn",
+				"arduino:mbed_nano:nano33ble",
+				"--upload",
+				"${workspaceFolder}/nano_ble33_sense_camera"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"isBackground": false,
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			}
+		},
+		{
+			"label": "Arduino Build and Upload - Person Detection",
+			"type": "shell",
+			"command": "arduino-cli",
+			"args": [
+				"compile",
+				"--fqbn",
+				"arduino:mbed_nano:nano33ble",
+				"--upload",
+				"${workspaceFolder}/sketch_aug15b"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"isBackground": false,
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			}
+		},
+		{
+			"label": "Arduino Compile Only - Camera",
+			"type": "shell",
+			"command": "arduino-cli",
+			"args": [
+				"compile",
+				"--fqbn",
+				"arduino:mbed_nano:nano33ble",
+				"${workspaceFolder}/nano_ble33_sense_camera"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"isBackground": false,
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			}
+		},
+		{
+			"label": "Arduino Compile Only - Person Detection",
+			"type": "shell",
+			"command": "arduino-cli",
+			"args": [
+				"compile",
+				"--fqbn",
+				"arduino:mbed_nano:nano33ble",
+				"${workspaceFolder}/sketch_aug15b"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"isBackground": false,
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			}
+		}
+	]
+}
